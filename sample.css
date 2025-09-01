@@ -98,10 +98,7 @@ nav {
   padding: 60px 0;
   color: #ababab;
 }
-.about-col-1 img {
-  width: 100%;
-  border-radius: 15px;
-}
+
 .about-col-2 {
   flex: 1;
   padding: 20px;
@@ -155,14 +152,9 @@ footer {
   background: #111;
   margin-top: 40px;
 }
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-    text-align: center;
-  }
-  nav ul {
-    display: none; /* Later we'll toggle with JS */
-  }
+#success-message {
+  display: none;
+  color: #4BB543;
+  margin-top: 10px;
+  font-weight: bold;
 }
